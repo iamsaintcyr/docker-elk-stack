@@ -1,17 +1,17 @@
-#ELK STACK USING DOCKER COMPOSE
+# ELK STACK USING DOCKER COMPOSE
 
 This project help you to build an ELK(Elastic Search, Logstash, Kibana) stack using Docker Compose.
 
-You should have Docker install on your system ===> https://docs.docker.com/desktop/
+You should have Docker installed on your system ===> https://docs.docker.com/desktop/
 
-#Build
+## Build
 docker-compose build
 
-#Start 
+## Start 
 docker-compose up -d
 
-#Stop
+## Stop
 docker-compose stop
 
-#Stop and delete all containers
+## Stop and delete all containers
 docker-compose down 
