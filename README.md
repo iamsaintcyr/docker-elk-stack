@@ -10,8 +10,13 @@ docker-compose build
 ## Start 
 docker-compose up -d
 
+Access Elasticsearch using your browser: http://elasticsearch:9201
+
 ## Stop
 docker-compose stop
 
 ## Stop and delete all containers
 docker-compose down 
+
+## Stop and delete all containers and volumes
+docker-compose down -v
